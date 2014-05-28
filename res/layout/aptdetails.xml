@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlDetail"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/llBackgroundColor"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_det_medname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="Preparat name"
+        android:textAppearance="@style/MainTextBig" android:paddingLeft="15dp" android:textSize="32px" android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_det_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_det_medname"
+        android:text="med cost"
+        android:textAppearance="@style/MainTextNorm" android:paddingLeft="15dp" android:layout_marginTop="-4dp"/>
+
+    <TextView
+        android:id="@+id/tv_det_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_det_cost"
+        android:text="Date"
+        android:textAppearance="@style/MainTextNorm" android:paddingLeft="15dp" android:layout_marginTop="-4dp"/>
+
+    <TextView
+        android:id="@+id/tv_det_aptname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_det_date"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="15dp"
+        android:text="Apt name"
+        android:textAppearance="@style/MainTextBig" android:textSize="32px" android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_det_dist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_det_aptname"
+        android:text="Distinct"
+        android:textAppearance="@style/MainTextNorm" android:paddingLeft="15dp" android:layout_marginTop="-4dp"/>
+
+    <TextView
+        android:id="@+id/tv_det_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_det_dist"
+        android:text="Address"
+        android:textAppearance="@style/MainTextNorm" android:paddingLeft="15dp" android:layout_marginTop="-4dp"/>
+
+    <TextView
+        android:id="@+id/tv_det_phones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_det_addr"
+        android:text="Phones"
+        android:textAppearance="@style/MainTextNorm" android:maxLines="2" android:paddingLeft="15dp" android:layout_marginTop="-4dp"/>
+
+    <RelativeLayout
+        android:id="@+id/flMap"
+        android:layout_width="280dp"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_det_phones"
+        android:layout_marginTop="10dp" android:layout_marginLeft="20dp" android:layout_marginBottom="20dp" android:background="@drawable/active_str_bg">
+    
+    	<ru.yandex.yandexmapkit.MapView
+	        android:id="@+id/map"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:apiKey="gIOeENgsW-tCXGgdoGjlgdTbEoyQx3rH4f8RSj~h41yXiSAUNi4jKhv5j0QlpDZF9kp0~zZif6nDHIYYFqk4a~nDxl5ZkH3g25-evsCykn8="
+    android:layout_margin="3dp" android:layout_marginTop="0dp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edNameMed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_marginTop="190dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="15dp" android:text="Название лекарства" android:inputType="text|textAutoCorrect|textAutoComplete">
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spDistrict"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="13dp"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="Найти" android:layout_marginTop="50dp" android:background="@drawable/green_button" android:textAppearance="@style/MainTextBig"/>
+
+</LinearLayout>

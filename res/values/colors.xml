@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="llBackgroundColor">#f4f4f4</color> 
+	<color name="llFontColor">#000000</color>
+	<color name="llSecondColor">#424242</color>
+	<color name="llGreenColor">#85c72c</color> 
+</resources>

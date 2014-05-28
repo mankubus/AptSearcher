@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/llBackgroundColor">
+
+    <ru.yandex.yandexmapkit.MapView
+        android:id="@+id/manymaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:apiKey="gIOeENgsW-tCXGgdoGjlgdTbEoyQx3rH4f8RSj~h41yXiSAUNi4jKhv5j0QlpDZF9kp0~zZif6nDHIYYFqk4a~nDxl5ZkH3g25-evsCykn8="
+    />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Apt Searcher</string>
+    
+    <string-array name="district_array">
+        <item>Все районы</item>
+        <item>Дзержинский район</item>
+        <item>Железнодорожный район</item>
+        <item>Заельцовский район</item>
+        <item>Калининский район</item>
+        <item>Кировский район</item>
+        <item>Ленинский район</item>
+        <item>Октябрьский район</item>
+        <item>Первомайский район</item>
+        <item>Советский район</item>
+        <item>Центральный район</item>
+    </string-array>
+</resources>

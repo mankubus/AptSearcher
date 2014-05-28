@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/llBackgroundColor"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rlCaption"
+        android:layout_width="fill_parent"
+        android:layout_height="58dp"
+        android:minHeight="58dp" android:background="@color/llSecondColor">
+
+        <TextView
+            android:id="@+id/tvAptCaptTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="Аптеки"
+            android:textAppearance="@style/MainTextNorm"
+            android:textColor="@color/llBackgroundColor" />
+
+        <ImageView
+            android:id="@+id/img_arr_gr"
+            android:layout_width="14dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:src="@drawable/arr_geen" />
+
+        <ImageView
+            android:id="@+id/img_balloon"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="7dp"
+            android:src="@drawable/map_icon" />
+
+        <TextView
+            android:id="@+id/tvAptCaptCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/img_balloon"
+            android:text="Цена, р."
+            android:textAppearance="@style/MainTextNorm"
+            android:textColor="@color/llBackgroundColor"
+            android:width="90dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="14dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvAptCaptCost"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="-20dp"
+            android:src="@drawable/arr_white" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvApts"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>
